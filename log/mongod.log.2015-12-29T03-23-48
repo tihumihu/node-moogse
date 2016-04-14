@@ -1,0 +1,41 @@
+2015-12-29T11:22:26.788+0800 [initandlisten] MongoDB starting : pid=5079 port=27017 dbpath=/Users/admin/Documents/feiyan_test/learnNode/data 64-bit host=guomatoMacBook-Air.local
+2015-12-29T11:22:26.788+0800 [initandlisten] 
+2015-12-29T11:22:26.789+0800 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2015-12-29T11:22:26.789+0800 [initandlisten] db version v2.6.5
+2015-12-29T11:22:26.789+0800 [initandlisten] git version: nogitversion
+2015-12-29T11:22:26.789+0800 [initandlisten] build info: Darwin guomatoMacBook-Air.local 15.0.0 Darwin Kernel Version 15.0.0: Sat Sep 19 15:53:46 PDT 2015; root:xnu-3247.10.11~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+2015-12-29T11:22:26.789+0800 [initandlisten] allocator: tcmalloc
+2015-12-29T11:22:26.789+0800 [initandlisten] options: { config: "conf/mongod.conf", net: { port: 27017 }, processManagement: { fork: true }, storage: { dbPath: "data" }, systemLog: { destination: "file", path: "log/mongod.log" } }
+2015-12-29T11:22:26.792+0800 [initandlisten] journal dir=/Users/admin/Documents/feiyan_test/learnNode/data/journal
+2015-12-29T11:22:26.792+0800 [initandlisten] recover begin
+2015-12-29T11:22:26.793+0800 [initandlisten] recover lsn: 1062085
+2015-12-29T11:22:26.793+0800 [initandlisten] recover /Users/admin/Documents/feiyan_test/learnNode/data/journal/j._0
+2015-12-29T11:22:26.794+0800 [initandlisten] recover skipping application of section seq:0 < lsn:1062085
+2015-12-29T11:22:26.795+0800 [initandlisten] recover skipping application of section seq:55903 < lsn:1062085
+2015-12-29T11:22:26.796+0800 [initandlisten] recover skipping application of section seq:111823 < lsn:1062085
+2015-12-29T11:22:26.797+0800 [initandlisten] recover skipping application of section seq:279153 < lsn:1062085
+2015-12-29T11:22:26.797+0800 [initandlisten] recover skipping application of section seq:335054 < lsn:1062085
+2015-12-29T11:22:26.799+0800 [initandlisten] recover skipping application of section seq:390714 < lsn:1062085
+2015-12-29T11:22:26.799+0800 [initandlisten] recover skipping application of section seq:446794 < lsn:1062085
+2015-12-29T11:22:26.801+0800 [initandlisten] recover skipping application of section seq:614574 < lsn:1062085
+2015-12-29T11:22:26.801+0800 [initandlisten] recover skipping application of section seq:837825 < lsn:1062085
+2015-12-29T11:22:26.802+0800 [initandlisten] recover skipping application of section more...
+2015-12-29T11:22:26.804+0800 [initandlisten] recover cleaning up
+2015-12-29T11:22:26.804+0800 [initandlisten] removeJournalFiles
+2015-12-29T11:22:26.805+0800 [initandlisten] recover done
+2015-12-29T11:22:26.848+0800 [initandlisten] ERROR: listen(): bind() failed errno:48 Address already in use for socket: 0.0.0.0:27017
+2015-12-29T11:22:26.849+0800 [initandlisten] ERROR:   addr already in use
+2015-12-29T11:22:26.911+0800 [initandlisten] now exiting
+2015-12-29T11:22:26.912+0800 [initandlisten] dbexit: 
+2015-12-29T11:22:26.912+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-12-29T11:22:26.912+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-12-29T11:22:26.912+0800 [initandlisten] shutdown: going to close sockets...
+2015-12-29T11:22:26.912+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-12-29T11:22:26.912+0800 [initandlisten] shutdown: lock for final commit...
+2015-12-29T11:22:26.913+0800 [initandlisten] shutdown: final commit...
+2015-12-29T11:22:26.916+0800 [initandlisten] shutdown: closing all files...
+2015-12-29T11:22:26.917+0800 [initandlisten] closeAllFiles() finished
+2015-12-29T11:22:26.917+0800 [initandlisten] journalCleanup...
+2015-12-29T11:22:26.917+0800 [initandlisten] removeJournalFiles
+2015-12-29T11:22:26.918+0800 [initandlisten] shutdown: removing fs lock...
+2015-12-29T11:22:26.918+0800 [initandlisten] dbexit: really exiting now

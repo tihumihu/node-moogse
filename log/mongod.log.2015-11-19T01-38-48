@@ -1,0 +1,37 @@
+2015-11-18T23:48:39.232+0800 [initandlisten] MongoDB starting : pid=19130 port=27017 dbpath=/Users/admin/Documents/feiyan_test/learnNode/data 64-bit host=guomatoMacBook-Air.local
+2015-11-18T23:48:39.232+0800 [initandlisten] 
+2015-11-18T23:48:39.233+0800 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2015-11-18T23:48:39.233+0800 [initandlisten] db version v2.6.5
+2015-11-18T23:48:39.233+0800 [initandlisten] git version: nogitversion
+2015-11-18T23:48:39.233+0800 [initandlisten] build info: Darwin guomatoMacBook-Air.local 15.0.0 Darwin Kernel Version 15.0.0: Sat Sep 19 15:53:46 PDT 2015; root:xnu-3247.10.11~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+2015-11-18T23:48:39.233+0800 [initandlisten] allocator: tcmalloc
+2015-11-18T23:48:39.234+0800 [initandlisten] options: { config: "conf/mongod.conf", net: { port: 27017 }, processManagement: { fork: true }, storage: { dbPath: "data" }, systemLog: { destination: "file", path: "log/mongod.log" } }
+2015-11-18T23:48:39.235+0800 [initandlisten] journal dir=/Users/admin/Documents/feiyan_test/learnNode/data/journal
+2015-11-18T23:48:39.236+0800 [initandlisten] recover : no journal files present, no recovery needed
+2015-11-18T23:48:39.385+0800 [initandlisten] waiting for connections on port 27017
+2015-11-18T23:48:49.136+0800 [initandlisten] connection accepted from 127.0.0.1:61630 #1 (1 connection now open)
+2015-11-18T23:49:19.952+0800 [initandlisten] connection accepted from 127.0.0.1:61631 #2 (2 connections now open)
+2015-11-18T23:49:19.963+0800 [initandlisten] connection accepted from 127.0.0.1:61632 #3 (3 connections now open)
+2015-11-18T23:49:19.965+0800 [initandlisten] connection accepted from 127.0.0.1:61633 #4 (4 connections now open)
+2015-11-18T23:49:19.966+0800 [initandlisten] connection accepted from 127.0.0.1:61634 #5 (5 connections now open)
+2015-11-18T23:49:19.966+0800 [initandlisten] connection accepted from 127.0.0.1:61635 #6 (6 connections now open)
+2015-11-18T23:49:39.339+0800 [clientcursormon] mem (MB) res:39 virt:2962
+2015-11-18T23:49:39.340+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T23:49:39.340+0800 [clientcursormon]  connections:6
+2015-11-18T23:53:07.079+0800 [conn4] allocating new ns file /Users/admin/Documents/feiyan_test/learnNode/data/movie.ns, filling with zeroes...
+2015-11-18T23:53:07.444+0800 [FileAllocator] allocating new datafile /Users/admin/Documents/feiyan_test/learnNode/data/movie.0, filling with zeroes...
+2015-11-18T23:53:07.444+0800 [FileAllocator] creating directory /Users/admin/Documents/feiyan_test/learnNode/data/_tmp
+2015-11-18T23:53:07.658+0800 [FileAllocator] done allocating datafile /Users/admin/Documents/feiyan_test/learnNode/data/movie.0, size: 64MB,  took 0.214 secs
+2015-11-18T23:53:07.662+0800 [conn4] build index on: movie.movies properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "movie.movies" }
+2015-11-18T23:53:07.663+0800 [conn4] 	 added index to empty collection
+2015-11-18T23:53:07.664+0800 [conn4] insert movie.movies query: { doctor: "sdaffaf", title: "dsfa", country: "中国", language: "中文", year: 2000, poster: "天目山路145号玉泉大厦8楼", summary: "中国空间看健康", flash: "", _id: ObjectId('564c9ee3bbbf06db4a32736c'), meta: { updateAt: new Date(1447861987065), createAt: new Date(1447861987065) }, __v: 0 } ninserted:1 keyUpdates:0 numYields:0 locks(micros) w:584735 584ms
+2015-11-18T23:53:07.664+0800 [conn4] command movie.$cmd command: insert { insert: "movies", documents: [ { doctor: "sdaffaf", title: "dsfa", country: "中国", language: "中文", year: 2000, poster: "天目山路145号玉泉大厦8楼", summary: "中国空间看健康", flash: "", _id: ObjectId('564c9ee3bbbf06db4a32736c'), meta: { updateAt: new Date(1447861987065), createAt: new Date(1447861987065) }, __v: 0 } ], ordered: false, writeConcern: { w: 1 } } keyUpdates:0 numYields:0 locks(micros) w:729 reslen:40 588ms
+2015-11-18T23:53:39.688+0800 [clientcursormon] mem (MB) res:40 virt:3123
+2015-11-18T23:53:39.689+0800 [clientcursormon]  mapped (incl journal view):640
+2015-11-18T23:53:39.689+0800 [clientcursormon]  connections:6
+2015-11-18T23:54:12.443+0800 [conn4] end connection 127.0.0.1:61633 (5 connections now open)
+2015-11-18T23:54:12.443+0800 [conn2] end connection 127.0.0.1:61631 (5 connections now open)
+2015-11-18T23:54:12.443+0800 [conn6] end connection 127.0.0.1:61635 (5 connections now open)
+2015-11-18T23:54:12.443+0800 [conn5] end connection 127.0.0.1:61634 (5 connections now open)
+2015-11-18T23:54:12.443+0800 [conn3] end connection 127.0.0.1:61632 (5 connections now open)
+2015-11-18T23:54:19.208+0800 [conn1] end connection 127.0.0.1:61630 (0 connections now open)

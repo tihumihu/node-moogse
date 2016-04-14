@@ -1,0 +1,41 @@
+extends ../layout
+
+block content
+    .container
+        .row
+            form.form-horizontal(method="post",action="/admin/movie/new")
+                input(type="hidden", name="movie[_id]", value="#{movie._id}")
+                .form-group
+                    label.col-sm-2.control-label(for="inputTitle") 电影名字
+                    .col-sm-10
+                        input#inputTitle.form-control(type="text",name="movie[title]")
+                .form-group
+                    label.col-sm-2.control-label(for="inputDoctor") 电影导演
+                    .col-sm-10
+                        input#inputTitle.form-control(type="text",name="movie[doctor]")
+                .form-group
+                    label.col-sm-2.control-label(for="inputCountry") 国家
+                    .col-sm-10
+                        input#inputTitle.form-control(type="text",name="movie[country]")
+                .form-group
+                    label.col-sm-2.control-label(for="inputLanguage") 语种
+                    .col-sm-10
+                        input#inputTitle.form-control(type="text",name="movie[language]")
+                .form-group
+                    label.col-sm-2.control-label(for="Poster") 海报地址
+                    .col-sm-10
+                        input#inputTitle.form-control(type="text",name="movie[poster]")
+                .form-group
+                    label.col-sm-2.control-label(for="inputFlash") 片源地址
+                    .col-sm-10
+                        input#inputTitle.form-control(type="text",name="movie[flash]")
+                .form-group
+                    label.col-sm-2.control-label(for="inputYear") 上映年份
+                    .col-sm-10
+                        input#inputTitle.form-control(type="text",name="movie[year]")
+                .form-group
+                    label.col-sm-2.control-label(for="inputSummary") 电影简介
+                    .col-sm-10
+                        input#inputTitle.form-control(type="text",name="movie[summary]")
+
+                button.btn.btn-success(type="submit") 提交

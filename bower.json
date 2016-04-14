@@ -1,0 +1,28 @@
+{
+  "name": "movie",
+  "authors": [
+    "feiyan"
+  ],
+  "description": "imooc learn node",
+  "main": "",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "keywords": [
+    "imooc"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

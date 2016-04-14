@@ -1,0 +1,61 @@
+2015-12-26T18:04:45.269+0800 [initandlisten] MongoDB starting : pid=554 port=27017 dbpath=/Users/admin/Documents/feiyan_test/learnNode/data 64-bit host=guomatoMacBook-Air.local
+2015-12-26T18:04:45.269+0800 [initandlisten] 
+2015-12-26T18:04:45.269+0800 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2015-12-26T18:04:45.269+0800 [initandlisten] db version v2.6.5
+2015-12-26T18:04:45.270+0800 [initandlisten] git version: nogitversion
+2015-12-26T18:04:45.270+0800 [initandlisten] build info: Darwin guomatoMacBook-Air.local 15.0.0 Darwin Kernel Version 15.0.0: Sat Sep 19 15:53:46 PDT 2015; root:xnu-3247.10.11~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+2015-12-26T18:04:45.270+0800 [initandlisten] allocator: tcmalloc
+2015-12-26T18:04:45.270+0800 [initandlisten] options: { config: "conf/mongod.conf", net: { port: 27017 }, processManagement: { fork: true }, storage: { dbPath: "data" }, systemLog: { destination: "file", path: "log/mongod.log" } }
+2015-12-26T18:04:45.272+0800 [initandlisten] journal dir=/Users/admin/Documents/feiyan_test/learnNode/data/journal
+2015-12-26T18:04:45.273+0800 [initandlisten] recover begin
+2015-12-26T18:04:45.273+0800 [initandlisten] recover lsn: 4044101
+2015-12-26T18:04:45.274+0800 [initandlisten] recover /Users/admin/Documents/feiyan_test/learnNode/data/journal/j._0
+2015-12-26T18:04:45.275+0800 [initandlisten] recover skipping application of section seq:0 < lsn:4044101
+2015-12-26T18:04:45.276+0800 [initandlisten] recover skipping application of section seq:112001 < lsn:4044101
+2015-12-26T18:04:45.276+0800 [initandlisten] recover skipping application of section seq:334811 < lsn:4044101
+2015-12-26T18:04:45.277+0800 [initandlisten] recover skipping application of section seq:390931 < lsn:4044101
+2015-12-26T18:04:45.278+0800 [initandlisten] recover skipping application of section seq:447131 < lsn:4044101
+2015-12-26T18:04:45.279+0800 [initandlisten] recover skipping application of section seq:502791 < lsn:4044101
+2015-12-26T18:04:45.280+0800 [initandlisten] recover skipping application of section seq:558571 < lsn:4044101
+2015-12-26T18:04:45.281+0800 [initandlisten] recover cleaning up
+2015-12-26T18:04:45.282+0800 [initandlisten] removeJournalFiles
+2015-12-26T18:04:45.282+0800 [initandlisten] recover done
+2015-12-26T18:04:45.342+0800 [initandlisten] waiting for connections on port 27017
+2015-12-26T18:05:45.371+0800 [clientcursormon] mem (MB) res:40 virt:2975
+2015-12-26T18:05:45.371+0800 [clientcursormon]  mapped (incl journal view):480
+2015-12-26T18:05:45.372+0800 [clientcursormon]  connections:0
+2015-12-26T18:08:25.951+0800 [initandlisten] connection accepted from 127.0.0.1:49421 #1 (1 connection now open)
+2015-12-26T18:08:25.952+0800 [initandlisten] connection accepted from 127.0.0.1:49422 #2 (2 connections now open)
+2015-12-26T18:08:25.963+0800 [initandlisten] connection accepted from 127.0.0.1:49423 #3 (3 connections now open)
+2015-12-26T18:08:25.973+0800 [initandlisten] connection accepted from 127.0.0.1:49424 #4 (4 connections now open)
+2015-12-26T18:08:25.984+0800 [initandlisten] connection accepted from 127.0.0.1:49425 #5 (5 connections now open)
+2015-12-26T18:08:25.995+0800 [initandlisten] connection accepted from 127.0.0.1:49426 #6 (6 connections now open)
+2015-12-26T18:08:35.279+0800 [conn1] end connection 127.0.0.1:49421 (5 connections now open)
+2015-12-26T18:08:36.518+0800 [conn4] end connection 127.0.0.1:49424 (4 connections now open)
+2015-12-26T18:08:36.518+0800 [conn3] end connection 127.0.0.1:49423 (4 connections now open)
+2015-12-26T18:08:36.518+0800 [conn2] end connection 127.0.0.1:49422 (4 connections now open)
+2015-12-26T18:08:36.518+0800 [conn5] end connection 127.0.0.1:49425 (4 connections now open)
+2015-12-26T18:08:36.518+0800 [conn6] end connection 127.0.0.1:49426 (4 connections now open)
+2015-12-26T18:09:30.877+0800 [initandlisten] connection accepted from 127.0.0.1:49607 #7 (1 connection now open)
+2015-12-26T18:09:30.888+0800 [initandlisten] connection accepted from 127.0.0.1:49608 #8 (2 connections now open)
+2015-12-26T18:09:35.143+0800 [conn7] end connection 127.0.0.1:49607 (1 connection now open)
+2015-12-26T18:09:40.947+0800 [conn8] end connection 127.0.0.1:49608 (0 connections now open)
+2015-12-26T18:10:45.553+0800 [clientcursormon] mem (MB) res:4 virt:2975
+2015-12-26T18:10:45.554+0800 [clientcursormon]  mapped (incl journal view):480
+2015-12-26T18:10:45.554+0800 [clientcursormon]  connections:0
+2015-12-26T18:15:45.815+0800 [clientcursormon] mem (MB) res:4 virt:2975
+2015-12-26T18:15:45.817+0800 [clientcursormon]  mapped (incl journal view):480
+2015-12-26T18:15:45.818+0800 [clientcursormon]  connections:0
+2015-12-26T18:19:28.076+0800 [initandlisten] connection accepted from 127.0.0.1:50958 #9 (1 connection now open)
+2015-12-26T18:19:28.077+0800 [initandlisten] connection accepted from 127.0.0.1:50959 #10 (2 connections now open)
+2015-12-26T18:19:28.462+0800 [conn9] end connection 127.0.0.1:50958 (1 connection now open)
+2015-12-26T18:19:29.065+0800 [conn10] end connection 127.0.0.1:50959 (0 connections now open)
+2015-12-26T18:19:46.001+0800 [clientcursormon] mem (MB) res:5 virt:2975
+2015-12-26T18:19:46.002+0800 [clientcursormon]  mapped (incl journal view):480
+2015-12-26T18:19:46.003+0800 [clientcursormon]  connections:0
+2015-12-26T21:26:07.798+0800 [clientcursormon] mem (MB) res:5 virt:2975
+2015-12-26T21:26:07.801+0800 [clientcursormon]  mapped (incl journal view):480
+2015-12-26T21:26:07.802+0800 [clientcursormon]  connections:0
+2015-12-28T09:11:48.645+0800 [clientcursormon] mem (MB) res:2 virt:2975
+2015-12-28T09:11:48.647+0800 [clientcursormon]  mapped (incl journal view):480
+2015-12-28T09:11:48.648+0800 [clientcursormon]  connections:0

@@ -1,0 +1,234 @@
+2015-11-18T18:11:57.387+0800 [initandlisten] MongoDB starting : pid=9952 port=12345 dbpath=/Users/admin/Documents/feiyan_test/learn-mongodb/data 64-bit host=guomatoMacBook-Air.local
+2015-11-18T18:11:57.387+0800 [initandlisten] 
+2015-11-18T18:11:57.387+0800 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2015-11-18T18:11:57.387+0800 [initandlisten] db version v2.6.5
+2015-11-18T18:11:57.388+0800 [initandlisten] git version: nogitversion
+2015-11-18T18:11:57.388+0800 [initandlisten] build info: Darwin guomatoMacBook-Air.local 15.0.0 Darwin Kernel Version 15.0.0: Sat Sep 19 15:53:46 PDT 2015; root:xnu-3247.10.11~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+2015-11-18T18:11:57.388+0800 [initandlisten] allocator: tcmalloc
+2015-11-18T18:11:57.388+0800 [initandlisten] options: { config: "conf/mongod.conf", net: { port: 12345 }, processManagement: { fork: true }, storage: { dbPath: "data" }, systemLog: { destination: "file", path: "log/mongod.log" } }
+2015-11-18T18:11:57.390+0800 [initandlisten] journal dir=/Users/admin/Documents/feiyan_test/learn-mongodb/data/journal
+2015-11-18T18:11:57.391+0800 [initandlisten] recover : no journal files present, no recovery needed
+2015-11-18T18:11:57.495+0800 [initandlisten] waiting for connections on port 12345
+2015-11-18T18:12:57.473+0800 [clientcursormon] mem (MB) res:7 virt:2655
+2015-11-18T18:12:57.474+0800 [clientcursormon]  mapped (incl journal view):160
+2015-11-18T18:12:57.474+0800 [clientcursormon]  connections:0
+2015-11-18T18:13:39.545+0800 [initandlisten] connection accepted from 127.0.0.1:56165 #1 (1 connection now open)
+2015-11-18T18:13:56.861+0800 [conn1] end connection 127.0.0.1:56165 (0 connections now open)
+2015-11-18T18:14:00.283+0800 [initandlisten] connection accepted from 127.0.0.1:56166 #2 (1 connection now open)
+2015-11-18T18:17:57.711+0800 [clientcursormon] mem (MB) res:7 virt:2656
+2015-11-18T18:17:57.713+0800 [clientcursormon]  mapped (incl journal view):160
+2015-11-18T18:17:57.714+0800 [clientcursormon]  connections:1
+2015-11-18T18:22:57.938+0800 [clientcursormon] mem (MB) res:7 virt:2656
+2015-11-18T18:22:57.939+0800 [clientcursormon]  mapped (incl journal view):160
+2015-11-18T18:22:57.939+0800 [clientcursormon]  connections:1
+2015-11-18T18:27:58.671+0800 [clientcursormon] mem (MB) res:7 virt:2656
+2015-11-18T18:27:58.674+0800 [clientcursormon]  mapped (incl journal view):160
+2015-11-18T18:27:58.674+0800 [clientcursormon]  connections:1
+2015-11-18T18:30:30.785+0800 [conn2] allocating new ns file /Users/admin/Documents/feiyan_test/learn-mongodb/data/test.ns, filling with zeroes...
+2015-11-18T18:30:31.194+0800 [FileAllocator] allocating new datafile /Users/admin/Documents/feiyan_test/learn-mongodb/data/test.0, filling with zeroes...
+2015-11-18T18:30:31.194+0800 [FileAllocator] creating directory /Users/admin/Documents/feiyan_test/learn-mongodb/data/_tmp
+2015-11-18T18:30:31.363+0800 [FileAllocator] done allocating datafile /Users/admin/Documents/feiyan_test/learn-mongodb/data/test.0, size: 64MB,  took 0.168 secs
+2015-11-18T18:30:31.371+0800 [conn2] build index on: test.test properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "test.test" }
+2015-11-18T18:30:31.371+0800 [conn2] 	 added index to empty collection
+2015-11-18T18:30:31.372+0800 [conn2] insert test.test query: { _id: ObjectId('564c534656b40cbcb0d9261b'), x: "tutu" } ninserted:1 keyUpdates:0 numYields:0 locks(micros) w:586957 587ms
+2015-11-18T18:30:31.372+0800 [conn2] command test.$cmd command: insert { insert: "test", documents: [ { _id: ObjectId('564c534656b40cbcb0d9261b'), x: "tutu" } ], ordered: true } keyUpdates:0 numYields:0 locks(micros) w:545 reslen:40 589ms
+2015-11-18T18:30:58.806+0800 [clientcursormon] mem (MB) res:8 virt:2817
+2015-11-18T18:30:58.807+0800 [clientcursormon]  mapped (incl journal view):320
+2015-11-18T18:30:58.807+0800 [clientcursormon]  connections:1
+2015-11-18T18:35:59.039+0800 [clientcursormon] mem (MB) res:8 virt:2817
+2015-11-18T18:35:59.042+0800 [clientcursormon]  mapped (incl journal view):320
+2015-11-18T18:35:59.043+0800 [clientcursormon]  connections:1
+2015-11-18T18:40:59.268+0800 [clientcursormon] mem (MB) res:7 virt:2817
+2015-11-18T18:40:59.368+0800 [clientcursormon]  mapped (incl journal view):320
+2015-11-18T18:40:59.368+0800 [clientcursormon]  connections:1
+2015-11-18T18:45:59.610+0800 [clientcursormon] mem (MB) res:7 virt:2817
+2015-11-18T18:45:59.613+0800 [clientcursormon]  mapped (incl journal view):320
+2015-11-18T18:45:59.613+0800 [clientcursormon]  connections:1
+2015-11-18T18:46:04.776+0800 [conn2] allocating new ns file /Users/admin/Documents/feiyan_test/learn-mongodb/data/imooc.ns, filling with zeroes...
+2015-11-18T18:46:05.284+0800 [FileAllocator] allocating new datafile /Users/admin/Documents/feiyan_test/learn-mongodb/data/imooc.0, filling with zeroes...
+2015-11-18T18:46:05.478+0800 [FileAllocator] done allocating datafile /Users/admin/Documents/feiyan_test/learn-mongodb/data/imooc.0, size: 64MB,  took 0.192 secs
+2015-11-18T18:46:05.482+0800 [conn2] build index on: imooc.test2 properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "imooc.test2" }
+2015-11-18T18:46:05.483+0800 [conn2] 	 added index to empty collection
+2015-11-18T18:46:05.483+0800 [conn2] insert imooc.test2 query: { _id: ObjectId('564c56ec56b40cbcb0d9261c'), x: 2.0 } ninserted:1 keyUpdates:0 numYields:0 locks(micros) w:709547 709ms
+2015-11-18T18:46:05.483+0800 [conn2] command imooc.$cmd command: insert { insert: "test2", documents: [ { _id: ObjectId('564c56ec56b40cbcb0d9261c'), x: 2.0 } ], ordered: true } keyUpdates:0 numYields:0 locks(micros) w:211 reslen:40 710ms
+2015-11-18T18:46:59.667+0800 [clientcursormon] mem (MB) res:8 virt:2977
+2015-11-18T18:46:59.669+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T18:46:59.669+0800 [clientcursormon]  connections:1
+2015-11-18T18:51:59.907+0800 [clientcursormon] mem (MB) res:8 virt:2977
+2015-11-18T18:51:59.909+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T18:51:59.910+0800 [clientcursormon]  connections:1
+2015-11-18T18:57:00.144+0800 [clientcursormon] mem (MB) res:8 virt:2977
+2015-11-18T18:57:00.147+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T18:57:00.147+0800 [clientcursormon]  connections:1
+2015-11-18T19:02:00.387+0800 [clientcursormon] mem (MB) res:8 virt:2977
+2015-11-18T19:02:00.389+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T19:02:00.389+0800 [clientcursormon]  connections:1
+2015-11-18T19:07:00.635+0800 [clientcursormon] mem (MB) res:8 virt:2977
+2015-11-18T19:07:00.638+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T19:07:00.639+0800 [clientcursormon]  connections:1
+2015-11-18T19:12:00.895+0800 [clientcursormon] mem (MB) res:7 virt:2977
+2015-11-18T19:12:00.898+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T19:12:00.898+0800 [clientcursormon]  connections:1
+2015-11-18T19:17:01.155+0800 [clientcursormon] mem (MB) res:6 virt:2977
+2015-11-18T19:17:01.157+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T19:17:01.157+0800 [clientcursormon]  connections:1
+2015-11-18T19:18:01.220+0800 [clientcursormon] mem (MB) res:7 virt:2977
+2015-11-18T19:18:01.222+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T19:18:01.222+0800 [clientcursormon]  connections:1
+2015-11-18T19:23:01.440+0800 [clientcursormon] mem (MB) res:7 virt:2977
+2015-11-18T19:23:01.441+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T19:23:01.442+0800 [clientcursormon]  connections:1
+2015-11-18T19:28:01.652+0800 [clientcursormon] mem (MB) res:7 virt:2977
+2015-11-18T19:28:01.653+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T19:28:01.653+0800 [clientcursormon]  connections:1
+2015-11-18T19:33:01.874+0800 [clientcursormon] mem (MB) res:7 virt:2977
+2015-11-18T19:33:01.875+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T19:33:01.875+0800 [clientcursormon]  connections:1
+2015-11-18T19:38:02.099+0800 [clientcursormon] mem (MB) res:7 virt:2977
+2015-11-18T19:38:02.100+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T19:38:02.100+0800 [clientcursormon]  connections:1
+2015-11-18T19:43:02.325+0800 [clientcursormon] mem (MB) res:7 virt:2977
+2015-11-18T19:43:02.326+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T19:43:02.327+0800 [clientcursormon]  connections:1
+2015-11-18T19:48:43.016+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T19:48:43.019+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T19:48:43.020+0800 [clientcursormon]  connections:1
+2015-11-18T19:53:43.225+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T19:53:43.226+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T19:53:43.227+0800 [clientcursormon]  connections:1
+2015-11-18T19:58:43.485+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T19:58:43.486+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T19:58:43.487+0800 [clientcursormon]  connections:1
+2015-11-18T20:02:17.276+0800 [TTLMonitor] query local.system.indexes query: { expireAfterSeconds: { $exists: true } } planSummary: COLLSCAN ntoreturn:0 ntoskip:0 nscanned:1 nscannedObjects:1 keyUpdates:0 numYields:1 locks(micros) r:1509018 nreturned:0 reslen:20 755ms
+2015-11-18T20:03:43.742+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T20:03:43.743+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T20:03:43.743+0800 [clientcursormon]  connections:1
+2015-11-18T20:08:43.978+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T20:08:43.979+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T20:08:43.979+0800 [clientcursormon]  connections:1
+2015-11-18T20:13:44.267+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T20:13:44.268+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T20:13:44.268+0800 [clientcursormon]  connections:1
+2015-11-18T20:18:44.527+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T20:18:44.528+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T20:18:44.528+0800 [clientcursormon]  connections:1
+2015-11-18T20:23:44.787+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T20:23:44.788+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T20:23:44.789+0800 [clientcursormon]  connections:1
+2015-11-18T20:28:45.061+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T20:28:45.063+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T20:28:45.063+0800 [clientcursormon]  connections:1
+2015-11-18T20:33:45.281+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T20:33:45.282+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T20:33:45.282+0800 [clientcursormon]  connections:1
+2015-11-18T20:38:45.533+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T20:38:45.536+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T20:38:45.536+0800 [clientcursormon]  connections:1
+2015-11-18T20:43:45.763+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T20:43:45.766+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T20:43:45.766+0800 [clientcursormon]  connections:1
+2015-11-18T20:48:45.984+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T20:48:45.984+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T20:48:45.984+0800 [clientcursormon]  connections:1
+2015-11-18T20:53:46.197+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T20:53:46.200+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T20:53:46.200+0800 [clientcursormon]  connections:1
+2015-11-18T20:58:46.424+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T20:58:46.427+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T20:58:46.427+0800 [clientcursormon]  connections:1
+2015-11-18T21:03:46.634+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T21:03:46.634+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T21:03:46.635+0800 [clientcursormon]  connections:1
+2015-11-18T21:08:46.873+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T21:08:46.874+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T21:08:46.875+0800 [clientcursormon]  connections:1
+2015-11-18T21:13:47.095+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T21:13:47.095+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T21:13:47.096+0800 [clientcursormon]  connections:1
+2015-11-18T21:18:47.321+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T21:18:47.322+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T21:18:47.322+0800 [clientcursormon]  connections:1
+2015-11-18T21:23:47.576+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T21:23:47.577+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T21:23:47.577+0800 [clientcursormon]  connections:1
+2015-11-18T21:28:47.845+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T21:28:47.846+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T21:28:47.846+0800 [clientcursormon]  connections:1
+2015-11-18T21:33:48.104+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T21:33:48.104+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T21:33:48.105+0800 [clientcursormon]  connections:1
+2015-11-18T21:38:48.358+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T21:38:48.359+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T21:38:48.359+0800 [clientcursormon]  connections:1
+2015-11-18T21:43:48.610+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T21:43:48.611+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T21:43:48.611+0800 [clientcursormon]  connections:1
+2015-11-18T21:48:48.854+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T21:48:48.855+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T21:48:48.856+0800 [clientcursormon]  connections:1
+2015-11-18T21:53:49.141+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T21:53:49.142+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T21:53:49.143+0800 [clientcursormon]  connections:1
+2015-11-18T21:58:49.598+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T21:58:49.599+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T21:58:49.599+0800 [clientcursormon]  connections:1
+2015-11-18T22:03:50.105+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T22:03:50.105+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T22:03:50.105+0800 [clientcursormon]  connections:1
+2015-11-18T22:08:50.543+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T22:08:50.544+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T22:08:50.544+0800 [clientcursormon]  connections:1
+2015-11-18T22:13:51.030+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T22:13:51.031+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T22:13:51.031+0800 [clientcursormon]  connections:1
+2015-11-18T22:18:51.505+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T22:18:51.506+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T22:18:51.506+0800 [clientcursormon]  connections:1
+2015-11-18T22:23:52.046+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T22:23:52.048+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T22:23:52.049+0800 [clientcursormon]  connections:1
+2015-11-18T22:28:52.534+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T22:28:52.534+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T22:28:52.535+0800 [clientcursormon]  connections:1
+2015-11-18T22:33:56.484+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T22:33:56.582+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T22:33:56.582+0800 [clientcursormon]  connections:1
+2015-11-18T22:38:56.760+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T22:38:56.762+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T22:38:56.762+0800 [clientcursormon]  connections:1
+2015-11-18T22:43:56.968+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T22:43:56.971+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T22:43:56.971+0800 [clientcursormon]  connections:1
+2015-11-18T22:48:57.149+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T22:48:57.249+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T22:48:57.249+0800 [clientcursormon]  connections:1
+2015-11-18T22:53:57.456+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T22:53:57.457+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T22:53:57.458+0800 [clientcursormon]  connections:1
+2015-11-18T22:58:57.697+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T22:58:57.698+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T22:58:57.698+0800 [clientcursormon]  connections:1
+2015-11-18T23:03:57.950+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T23:03:57.950+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T23:03:57.950+0800 [clientcursormon]  connections:1
+2015-11-18T23:08:58.204+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T23:08:58.205+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T23:08:58.206+0800 [clientcursormon]  connections:1
+2015-11-18T23:13:58.414+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T23:13:58.414+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T23:13:58.415+0800 [clientcursormon]  connections:1
+2015-11-18T23:18:58.631+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T23:18:58.632+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T23:18:58.632+0800 [clientcursormon]  connections:1
+2015-11-18T23:23:58.870+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T23:23:58.873+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T23:23:58.873+0800 [clientcursormon]  connections:1
+2015-11-18T23:28:59.052+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T23:28:59.055+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T23:28:59.055+0800 [clientcursormon]  connections:1
+2015-11-18T23:33:59.266+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T23:33:59.266+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T23:33:59.267+0800 [clientcursormon]  connections:1
+2015-11-18T23:38:59.514+0800 [clientcursormon] mem (MB) res:2 virt:2977
+2015-11-18T23:38:59.515+0800 [clientcursormon]  mapped (incl journal view):480
+2015-11-18T23:38:59.515+0800 [clientcursormon]  connections:1

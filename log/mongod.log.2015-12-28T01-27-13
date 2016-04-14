@@ -1,0 +1,34 @@
+2015-12-28T09:22:41.249+0800 [initandlisten] MongoDB starting : pid=860 port=27017 dbpath=/Users/admin/Documents/feiyan_test/learnNode/data 64-bit host=guomatoMacBook-Air.local
+2015-12-28T09:22:41.249+0800 [initandlisten] 
+2015-12-28T09:22:41.249+0800 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+2015-12-28T09:22:41.250+0800 [initandlisten] db version v2.6.5
+2015-12-28T09:22:41.250+0800 [initandlisten] git version: nogitversion
+2015-12-28T09:22:41.250+0800 [initandlisten] build info: Darwin guomatoMacBook-Air.local 15.0.0 Darwin Kernel Version 15.0.0: Sat Sep 19 15:53:46 PDT 2015; root:xnu-3247.10.11~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+2015-12-28T09:22:41.250+0800 [initandlisten] allocator: tcmalloc
+2015-12-28T09:22:41.250+0800 [initandlisten] options: { config: "conf/mongod.conf", net: { port: 27017 }, processManagement: { fork: true }, storage: { dbPath: "data" }, systemLog: { destination: "file", path: "log/mongod.log" } }
+2015-12-28T09:22:41.252+0800 [initandlisten] journal dir=/Users/admin/Documents/feiyan_test/learnNode/data/journal
+2015-12-28T09:22:41.253+0800 [initandlisten] recover begin
+2015-12-28T09:22:41.254+0800 [initandlisten] recover lsn: 55520
+2015-12-28T09:22:41.254+0800 [initandlisten] recover /Users/admin/Documents/feiyan_test/learnNode/data/journal/j._0
+2015-12-28T09:22:41.255+0800 [initandlisten] recover skipping application of section seq:0 < lsn:55520
+2015-12-28T09:22:41.259+0800 [initandlisten] recover cleaning up
+2015-12-28T09:22:41.260+0800 [initandlisten] removeJournalFiles
+2015-12-28T09:22:41.260+0800 [initandlisten] recover done
+2015-12-28T09:22:41.260+0800 [initandlisten] 
+2015-12-28T09:22:41.261+0800 [initandlisten] ERROR: Insufficient free space for journal files
+2015-12-28T09:22:41.261+0800 [initandlisten] Please make at least 844MB available in /Users/admin/Documents/feiyan_test/learnNode/data/journal or use --smallfiles
+2015-12-28T09:22:41.261+0800 [initandlisten] 
+2015-12-28T09:22:41.262+0800 [initandlisten] exception in initAndListen: 15926 Insufficient free space for journals, terminating
+2015-12-28T09:22:41.263+0800 [initandlisten] dbexit: 
+2015-12-28T09:22:41.263+0800 [initandlisten] shutdown: going to close listening sockets...
+2015-12-28T09:22:41.263+0800 [initandlisten] shutdown: going to flush diaglog...
+2015-12-28T09:22:41.263+0800 [initandlisten] shutdown: going to close sockets...
+2015-12-28T09:22:41.264+0800 [initandlisten] shutdown: waiting for fs preallocator...
+2015-12-28T09:22:41.264+0800 [initandlisten] shutdown: lock for final commit...
+2015-12-28T09:22:41.264+0800 [initandlisten] shutdown: final commit...
+2015-12-28T09:22:41.264+0800 [initandlisten] shutdown: closing all files...
+2015-12-28T09:22:41.264+0800 [initandlisten] closeAllFiles() finished
+2015-12-28T09:22:41.265+0800 [initandlisten] journalCleanup...
+2015-12-28T09:22:41.265+0800 [initandlisten] removeJournalFiles
+2015-12-28T09:22:41.265+0800 [initandlisten] shutdown: removing fs lock...
+2015-12-28T09:22:41.265+0800 [initandlisten] dbexit: really exiting now
